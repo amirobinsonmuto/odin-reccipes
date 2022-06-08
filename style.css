@@ -1,0 +1,75 @@
+* {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FFF01F;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 50px;
+}
+
+a {
+    color: #000FE0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li { 
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    width: 500px;
+    height: 500px;
+    margin: 5px;
+}
+
+li a {
+    padding: 0.5em 2em;
+    background-color: #FFF01F;
+    transition: transform .2s; /* Animation */
+}
+
+li a:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+#gyoza {
+    background-image: url("./img/gyoza.jpg");
+}
+
+#tonkatsu {
+    background-image: url("./img/tonkatsu.jpg");
+}
+
+#nikujaga {
+    background-image: url("./img/nikujaga.jpg");
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000FE0;
+    height: 5em;
+    margin-top: auto;
+}
+
+footer p {
+    color: white; 
+}
